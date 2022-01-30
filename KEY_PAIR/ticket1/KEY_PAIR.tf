@@ -4,5 +4,5 @@ resource "aws_key_pair" "ilearning" {
 
 
   # please do not remove below tags
-  tags = local.common_tags
+  tags = local.task_tags
 }
