@@ -1,4 +1,4 @@
-resource "aws_key_pair" "ilearning-wordpress" {
+resource "aws_key_pair" "ilearning" {
   # your code goes here
 
 
