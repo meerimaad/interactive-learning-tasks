@@ -1,12 +1,12 @@
 output "az" {
-  value = aws_instance.web.availability_zone
+  # your code goes here
 }
 output "id" {
-  value = aws_instance.web.id
+  # your code goes here
 }
 output "region" {
-  value = "us-east-1"
+  # your code goes here
 }
 output "public_ip" {
-  value = aws_instance.web.public_ip
+  # your code goes here
 }

@@ -1,4 +1,5 @@
 resource "aws_instance" "web" {
-  ami           = "ami-ae6272b8"
-  instance_type = "t2.micro"
+  # your code goes here 
+  # please do not remove below tags
+  tags = local.common_tags
 }
