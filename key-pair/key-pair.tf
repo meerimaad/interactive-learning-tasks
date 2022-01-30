@@ -1,5 +1,8 @@
 resource "aws_key_pair" "ilearning-wordpress" {
-  key_name   = "ilearning-wordpress"
-  public_key = file("~/.ssh/id_rsa.pub")
-  tags = local.task_tags
+  # your code goes here
+
+
+
+  # please do not remove below tags
+  tags = local.common_tags
 }
