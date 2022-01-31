@@ -11,6 +11,6 @@ output "region" {
 }
 
 
-output "az" {
+output "public_dns" {
   # Your code goes here
 }
