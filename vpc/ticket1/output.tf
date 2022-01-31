@@ -2,6 +2,6 @@ output "id" {
   # Your code goes here
 }
 
-output "cidr_block" {
+output "arn" {
    # Your code goes here
 }
