@@ -1,11 +1,16 @@
-output "zone_id" {
+output "instance_id" {
   # Your code goes here
 }
 
-output "name" {
+output "public_ip" {
    # Your code goes here
 }
 
-output "records" {
+output "region" {
+  # Your code goes here
+}
+
+
+output "az" {
   # Your code goes here
 }
