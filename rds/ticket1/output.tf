@@ -1,7 +1,7 @@
 output address {
   # Your code goes here 
 }
-output az {
+output availability_zone {
   # Your code goes here 
 }
 output engine {
