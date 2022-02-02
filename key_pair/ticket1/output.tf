@@ -11,6 +11,6 @@ output "region" {
 }
 
 
-output "arn" {
+output "keys_arn" {
   # Your code goes here
 }
