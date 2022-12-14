@@ -1,8 +1,5 @@
 resource "aws_key_pair" "ilearning" {
-  # your code goes here
-
-
-
-  # please do not remove below tags
-  tags = local.task_tags
-}
+ key_name  = "ilearning"
+ public_key = file("~/.ssh/id_rsa.pub")
+ tags = local.task_tags
+ }
