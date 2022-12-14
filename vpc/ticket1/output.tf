@@ -1,7 +1,7 @@
 output "id" {
-  # Your code goes here
+  value = aws_vpc.main.id 
 }
 
 output "arn" {
-   # Your code goes here
+   value = aws_vpc.main.arn
 }
