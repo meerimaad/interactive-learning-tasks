@@ -1,11 +1,9 @@
 output "zone_id" {
-  # Your code goes here
+  value = aws_route53_record.www.zone_id
 }
-
 output "name" {
-   # Your code goes here
+  value = aws_route53_record.www.name
 }
-
 output "records" {
-  # Your code goes here
+  value = aws_route53_record.www.records
 }
