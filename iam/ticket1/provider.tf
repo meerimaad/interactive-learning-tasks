@@ -1,3 +1,2 @@
 provider "aws" {
-  # Your code goes here
-}
+  region = "us-east-1"
