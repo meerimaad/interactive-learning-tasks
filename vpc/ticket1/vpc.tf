@@ -1,10 +1,10 @@
 resource "aws_vpc" "main" {
+resource "aws_vpc" "main" {
   cidr_block = "10.0.0.0/16"
-  
-  
-  # Do not change below code
-  tags = local.task_tags
+  tags       = local.task_tags
 }
+
+# Your code goes here
 resource "aws_route_table" "main" {
   vpc_id = aws_vpc.main.id
 route {
