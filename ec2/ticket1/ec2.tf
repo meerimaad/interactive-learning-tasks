@@ -1,10 +1,7 @@
 resource "aws_instance" "web" {
-  # Your code goes here 
-  
-  
-  
-  
-  
-  
+  ami                         = "ami-ae6272b8"
+  instance_type               = "t2.micro"
+  user_data = "userdata.sh"
+   
   tags = local.task_tags
 }
