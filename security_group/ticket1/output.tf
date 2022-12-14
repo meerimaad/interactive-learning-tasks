@@ -1,10 +1,10 @@
 output security_group_arn {
-  # Your code goes here
+  value = aws_security_group.allow_tls.arn
 }
 output security_group_id {
-  # Your code goes here
+  value = aws_security_group.allow_tls.id
 }
 
 output security_group_owner_id {
-  # Your code goes here
+  value = aws_security_group.allow_tls.owner_id
 }
