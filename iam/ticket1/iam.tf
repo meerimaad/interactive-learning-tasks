@@ -36,5 +36,5 @@ resource "aws_iam_user" "user_bob" {
 }
 resource "aws_iam_user" "bobs_unique_id" {
   name = "bobs_unique_id"
-}# Your code goes here
+}
 
